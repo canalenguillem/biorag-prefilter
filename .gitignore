@@ -1,0 +1,37 @@
+# Data
+data/
+*.csv
+*.parquet
+*.zip
+
+# Secrets
+.env
+.env.local
+*.key
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Qdrant local storage (if it ends up in the repo dir)
+qdrant_storage/
