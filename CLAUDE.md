@@ -90,7 +90,7 @@ docker compose up
 
 The roadmap order below is fixed. Do not skip ahead. Update this checklist when a step lands on `main`.
 
-- [ ] 1. Ingest — CSV → Parquet, schema verified
+- [x] 1. Ingest — CSV → Parquet, schema verified
 - [ ] 2. Filters — pure Polars functions + unit tests
 - [ ] 3. Embeddings + Qdrant upsert (idempotent, resumable)
 - [ ] 4. Extractor — Pydantic schema + Claude tool use
